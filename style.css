@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@600&family=Poppins&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(45, 45, 45);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #1a1f20 !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-item a {
+    margin-right: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255) !important;
+}
+
+
+/* jumbotron */
+
+.jumbotron .container {
+    margin-top: 100px;
+}
+
+.jumbotron {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    height: 630px;
+}
+
+.jumbotron h1 {
+    font-weight: 800;
+    font-size: 3em;
+}
+
+.jumbotron p {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.jumbotron img {
+    float: right;
+}
+
+.jumbotron .btn {
+    height: 45px;
+    width: 145px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #7971ea;
+    word-spacing: 2px;
+}
+
+.jumbotron .btn a {
+    text-align: center;
+    color: black;
+    margin-top: 10%;
+}
+
+.jumbotron .auto-input {
+    color: #7971ea;
+    font-size: 45px;
+}
+
+/* about */
+
+.about .content-about {
+    margin: auto;
+}
+
+.about h3 {
+    color: white !important;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+}
+
+.about .card {
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px 2px black;
+}
+
+/* Contact person */
+
+.contact h3 {
+    color: black;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    margin: 10px 0;
+}
+
+.contact .container-fluid {
+    margin-top: 200px;
+    background-color: #FAF4D3;
+    height: auto;
+    padding-bottom: 200px;
+}
+
+.contact .content-text h6 {
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: bold;
+    color: #FFBF69;
+}
+
+.content-recoment {
+    margin: auto;
+    margin-top: 50px;
+    height: 240px;
+    width: auto;
+    background-color: #393e46;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.content-recoment img {
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.content-recoment .btn {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: #7971ea;
+}
+
+.content-recoment .btn:hover {
+    background-color: rgb(165, 29, 29);
+}
+
+
+/* Jadwal Page */
+.jadwal .container {
+    margin-top: 50px;
+    width: 70%;
+}
+
+.jadwal span {
+    font-weight: 700;
+    color: #7971ea;
+}
+
+.jadwal .break {
+    color: rgb(228, 0, 0);
+    font-weight: 900;
+    /* letter-spacing: 2px; */
+    font-size: 1em;
+}
+
+
+/* for mobile */
+@media only screen and (max-width: 1000px) {
+
+    .nav-item a:hover {
+        border-bottom: none;
+    }
+
+    .jumbotron {
+        height: 680px;
+        text-align: center;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    .jumbotron img {
+        display: none;
+    }
+
+    .jumbotron h1 {
+        font-size: 47px;
+        margin-top: -40px;
+        border-bottom: none;
+    }
+
+    .jumbotron .auto-input {
+        font-size: 43px;
+    }
+
+    .jumbotron p {
+        opacity: 0.5;
+    }
+
+    .content-recoment {
+        width: auto;
+    }
+
+    .contact .container-fluid {
+        height: auto;
+    }
+
+    .content-recoment .btn {
+        float: right;
+        position: fixed;
+    }
+
+    .jadwal .container {
+        margin-top: 20px;
+        width: auto;
+    }
+
+    .footer .container .bi {
+        margin-top: 20px;
+    }
+}
+
+/* for tablet */
+
+
+/* CSS JADWAL PELAJARAN */
+
+
+
+/* Footer */
+footer {
+    background-color: #1a1f20;
+    color: #F6F2FF;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+footer .bi-instagram,
+.bi-whatsapp,
+.bi-github {
+    display: flex;
+    justify-content: right;
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(211, 211, 211);
+}
